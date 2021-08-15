@@ -1,0 +1,62 @@
+<div th:fragment="leftside">
+	<div class="left_Side">
+		<div class="profileText">
+
+			<h2 th:text="${unsur}"/><br><h2 style="margin-top: -14px;"><span>Java Back-End Developer</span></h2>
+		</div>
+		<div class="contactInfo">
+			<h3 class="title">Contact Info</h3>
+			<ul>
+				<li>
+					<span class="text" th:text="${uphone}"/>
+				</li>
+				<li>
+					<span th:text="${uemail}" class="text"/>
+				</li>
+
+
+				<li>
+					<span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					<span class="text" th:text="${ulocation}"/>
+				</li>
+				<li>
+					<span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+					<span class="text" th:text="${ulinkedin}"/>
+				</li>
+			</ul>
+		</div>
+		<div class="Education">
+			<h3 class="title">Education</h3>
+			<ul>
+				<li>
+					<h4>2016-2021</h4>
+					<h4>Bachelor's Degree in Computer Engineering</h4>
+					<h4>"ADA" University</h4>
+				</li>
+				<li>
+					<h4>2021-Present</h4>
+					<h4>Master's Degree in Data Science and Artificial Intelligence</h4>
+					<h4>French Azerbaijani University</h4>
+				</li>
+			</ul>
+		</div>
+		<div class="language">
+			<h3 class="title">Languages</h3>
+			<ul>
+				<li>
+					<span class="text">Azerbaijani</span>
+					<span class="percent">
+						<div style="width: 100%;"></div>
+					</span>
+				</li>
+				<li>
+					<span class="text">English</span>
+					<span class="percent">
+						<div style="width: 90%;"></div>
+					</span>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</div>

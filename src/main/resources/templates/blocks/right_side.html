@@ -1,0 +1,104 @@
+<div th:fragment="rightside">
+	<div class="right_Side">
+		<div class="about">
+			<h2 class="title2">Professional Title</h2>
+			<p th:text="${utitle}" />
+		</div>
+		<div class="about">
+			<h2 class="title2">Work Experience</h2>
+			<div class="box">
+				<div class="year_company">
+					<h5>08.2020-10.2020</h5>
+					<h5>State Agency for Public Service and Social Innovations under the President of Azerbaijan
+					</h5>
+				</div>
+				<div class="text">
+					<h4>Software Developer</h4>
+					<p>Javascript, HTML/CSS, Bootstrap</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="about">
+			<h2 class="title2 project">Personal Projects</h2>
+			<div class="box">
+				<div class="year_company">
+					<h5>Next Word Prediction App</h5>
+					<h5>This was my senior design project at the university. We as a team wrote this app using <span
+							class="python">Python NLTK and Django</span> .
+					</h5>
+				</div>
+			</div>
+			<div class="box">
+				<div class="year_company">
+					<h5>Resume Web App</h5>
+					<h5> <span class="python">Java Spring, JDBC, JPA, HTML/CSS</span> .
+					</h5>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="skills">
+
+			<h2 class="title2">Skills</h2>
+
+			<div class="box">
+
+				<h4 th:text="${s1name}" />
+
+				<div class="percent">
+					<div style="width:80%;"></div>
+				</div>
+
+			</div>
+
+			<div class="box">
+				<h4 th:text="${s2name}" />
+				<div class="percent">
+					<div style="width: 60%;"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h4 th:text="${s3name}" />
+				<div class="percent">
+					<div style="width: 60%;"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h4 th:text="${s4name}" />
+				<div class="percent">
+					<div style="width: 70%;"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h4 th:text="${s5name}" />
+				<div class="percent">
+					<div style="width: 70%;"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h4 th:text="${s6name}" />
+				<div class="percent">
+					<div style="width: 80%;"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h4 th:text="${s7name}" />
+				<div class="percent">
+					<div style="width: 70%;"></div>
+				</div>
+			</div>
+			<div class="box">
+				<h4 th:text="${s8name}" />
+				<div class="percent">
+					<div style="width: 70%;"></div>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+</div>
